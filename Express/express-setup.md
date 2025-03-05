@@ -8,17 +8,17 @@ This guide helps you set up a basic Express.js project.
 
 Run the following command to create a `package.json` file:
 
-````sh
+`````sh
 npm init
 
 ### 2️⃣ Install Dependencies
 
-```sh
+````sh
 npm install express
 
 ### 3️⃣ Install Nodemon (for auto-restarting server)
 
-```sh
+````sh
 npm install --save-dev nodemon
 
 ### 4️⃣ Create the Entry File
@@ -27,7 +27,7 @@ Create an index.js file:
 ### 5️⃣ Write Basic Express.js Code
 Open index.js and add the following:
 
-```js
+````js
 const express = require("express");
 const app = express();
 const port = 8000;
@@ -42,7 +42,7 @@ app.listen(port, () => {
 
 ### 6️⃣ Update package.json with Scripts
 
-```json
+````json
 {
   "scripts": {
     "start": "nodemon index.js"
@@ -51,21 +51,21 @@ app.listen(port, () => {
 
 ### 7️⃣ Run the Application
 
-```sh
+````sh
 npm start
 
 ### 8️⃣ Check the Running Server
 Once the server is running, open your browser and go to:
 
-```sh
+````sh
 http://localhost:<port>
 Replace <port> with the port number specified in your code.
 
 You should see the message:
 
-```sh
+````sh
 Hello World!
 
 🎉 Congratulations!
 Your Express.js project is now set up and running! 🚀
-````
+`````
