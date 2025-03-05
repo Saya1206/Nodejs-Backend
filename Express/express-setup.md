@@ -36,8 +36,8 @@ npm start
 
 Once the server is running, open your browser and go to:
 
-http://localhost/80000
-Replace 8000 with the port number specified in your code.
+  http://localhost/8000
+  Replace 8000 with the port number specified in your code.
 
 You should see the message:
 
